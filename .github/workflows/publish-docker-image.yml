@@ -23,7 +23,7 @@ jobs:
       id: docker_build_loadtester
       uses: docker/build-push-action@v2
       with:
-        file: "{context}/Dockerfile.loadtester"
+        file: "Dockerfile.loadtester"
         context: .
         push: true
         tags: stevenfraser/demo-application-loadtester:v0.0.${{ github.run_number }}
