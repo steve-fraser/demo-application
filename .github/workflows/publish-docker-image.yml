@@ -25,4 +25,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: stevenfraser/demo-application:${{ github.run_number }}
+        tags: stevenfraser/demo-application:v0.0.${{ github.run_number }}
